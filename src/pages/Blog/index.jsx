@@ -1,12 +1,13 @@
 import Banner from "../../common/banner";
 
-const Chengelog = () => {
+const Blog = () => {
   return (
     <>
       <Banner />
-      <div>Chengelog</div>
+
+      <div>Blog</div>
     </>
   );
 };
 
-export default Chengelog;
+export default Blog;
