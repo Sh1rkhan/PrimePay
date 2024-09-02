@@ -21,7 +21,7 @@ const Banner = () => {
   return (
     <div className="container">
       <div
-        className={`h-[33vh] ${bg} text-primary capitalize rounded-3xl flex items-center justify-center`}
+        className={`h-[33vh] ${bg} text-primary capitalize rounded-3xl text-5xl font-bold flex items-center justify-center`}
       >
         {path}
       </div>
