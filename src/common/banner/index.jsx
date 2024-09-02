@@ -15,6 +15,7 @@ const Banner = () => {
     case "changelog":
       bg = "bg-changelog-banner";
       break;
+  
   }
 
   return (
