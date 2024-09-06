@@ -7,8 +7,11 @@ export default {
         primary: "#231656",
         secondary: "#625FFB",
         "ligth-grey": "#F5F5F5",
+        "philippine-silver": "#B5B5B5",
+        "dark-liver": "#4E4E4E",
         "main-grey": "#D7D7D7",
         "light-green": "#2FCF3F",
+        "light-violet": "#8A6FFD"
       },
       container: {
         center: true,
@@ -25,6 +28,22 @@ export default {
         "licenses-banner": "url('/common/licenses-banner.png')",
         "changelog-banner": "url('/common/change-banner.png')",
       },
+      screens: {
+      // '2xl': {'max': '1535px'},
+      // // => @media (max-width: 1535px) { ... }
+
+      // 'xl': {'max': '1279px'},
+      // // => @media (max-width: 1279px) { ... }
+
+      // 'lg': {'max': '1023px'},
+      // // => @media (max-width: 1023px) { ... }
+
+      // 'md': {'max': '767px'},
+      // // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '680px'},
+      // => @media (max-width: 639px) { ... }
+    }
     },
   },
   plugins: [],
