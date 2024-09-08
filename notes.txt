@@ -1,2 +1,4 @@
 banner style add - bg-no-repeat
 change footer banner size like a header size
+navbar - sticky + shadow
+a href change to Link
