@@ -1,11 +1,12 @@
-import CardsItems from "../section1/leftSide/cardsItems/index.jsx.jsx"
-
+import CardsContainerSec2 from "./cardsContSec2"
+import TitleSec2 from "./title"
 
 const section2 = () => {
   return (
-    <div>
-        
-    </div>
+    <>
+    <TitleSec2/>
+    <CardsContainerSec2/>
+    </>
   )
 }
 
