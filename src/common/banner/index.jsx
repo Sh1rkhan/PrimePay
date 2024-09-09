@@ -19,7 +19,7 @@ const Banner = () => {
   }
 
   return (
-    <div className="container">
+    <div className="mx-28">
       <div
         className={`h-[33vh] ${bg} text-primary capitalize rounded-3xl flex items-center justify-center`}
       >
