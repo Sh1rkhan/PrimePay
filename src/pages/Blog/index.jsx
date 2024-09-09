@@ -1,11 +1,15 @@
 import Banner from "../../common/banner";
+import Section1 from "./section1";
+import Section2 from "./section2";
+
 
 const Blog = () => {
   return (
     <>
-      <Banner />
+     <Banner />
 
-      <div>Blog</div>
+     <Section1 />
+     <Section2/>
     </>
   );
 };
