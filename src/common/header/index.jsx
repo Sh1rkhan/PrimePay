@@ -3,8 +3,8 @@ import Button from "../button";
 
 const Header = () => {
   return (
-   <header className=" py-10 px-6 mx-26">
-     <div className="container flex flex-wrap justify-between">
+   <header className="py-10 px-6 mx-26">
+     <div className="container flex justify-between">
         
       <Link to={"/"} className="flex items-end gap-1">
           <img src="../public/common/Icon.png" alt="PrimePay Icon" className="w-10" />
