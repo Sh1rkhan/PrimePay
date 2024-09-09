@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 
 const Footer = () => {
-  return <footer className="bg-gray-100 mx-28 mt-60 pt-4 pb-14 px-6 rounded-3xl relative">   
+  return <footer className="bg-gray-100 mx-10 mt-60 pt-4 pb-14 px-6 rounded-3xl relative">   
   
 
-<div className="absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-1/2 z-20 w-full max-w-screen-xl px-8 py-8">
-  <div className="flex h-full bg-[url('../public/common/footer-banner.png')] bg-cover bg-center rounded-3xl p-12">
+<div className="absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-1/2 z-20 w-full max-w-screen-xl px-16">
+  <div className="flex h-full bg-[url('../public/common/footer-banner.png')] bg-cover bg-center rounded-3xl w-full py-9">
 
     <div className="flex flex-col justify-center px-6">
     <p className="text-left text-5xl font-Jost font-semibold leading-tight break-words">
