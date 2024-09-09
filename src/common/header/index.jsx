@@ -13,7 +13,7 @@ const Header = () => {
           </span>
       </Link>
 
-      <div className="flex gap-5 font-inter text-lg font-bold leading-7 mt-3 ml-20 ">
+      <div className="flex flex-wrap gap-5 font-inter text-lg font-bold leading-7 mt-3 ml-20 ">
           <Link to={"/"} className="text-indigo-950 hover:text-secondary">Home</Link>
           <Link to={"/blog"} className="text-indigo-950 hover:text-secondary ">Blog</Link>
           <Link to={"/licenses"} className="text-indigo-950 hover:text-secondary">Licenses</Link>
