@@ -12,7 +12,7 @@ const Button = ({ element, variant = "primary", children, ...props }) => {
       className += "px-6 py-3 bg-main-grey text-primary hover:bg-primary";
       break;
       case "footer":
-        className += "px-12 py-4 bg-primary text-white hover:bg-secondary";
+        className += "px-12 py-5 bg-primary text-white hover:bg-secondary";
         break;
     case "small":
       className += "px-5 py-2.5 bg-secondary text-white hover:bg-primary";

@@ -1,5 +1,8 @@
 const BlogSingle = () => {
-  return <div>BlogSingle</div>;
+  return <>
+  
+    <BlogContent/>
+  </>;
 };
 
 export default BlogSingle;
