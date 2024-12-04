@@ -3,7 +3,7 @@ import Button from "../button";
 
 const Header = () => {
   return (
-   <header className=" py-10 px-6 mx-26">
+   <header className="py-10 px-6 mx-26">
      <div className="container flex justify-between">
         
       <Link to={"/"} className="flex items-end gap-1">
@@ -13,7 +13,7 @@ const Header = () => {
           </span>
       </Link>
 
-      <div className="flex gap-5 font-inter text-lg font-bold leading-7 mt-3 ml-20 ">
+      <div className="flex flex-wrap gap-5 font-inter text-lg font-bold leading-7 mt-3 ml-20 ">
           <Link to={"/"} className="text-indigo-950 hover:text-secondary">Home</Link>
           <Link to={"/blog"} className="text-indigo-950 hover:text-secondary ">Blog</Link>
           <Link to={"/licenses"} className="text-indigo-950 hover:text-secondary">Licenses</Link>
